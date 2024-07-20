@@ -10,7 +10,7 @@ namespace GelirGiderTakip.Conn
 {
     public class SQLConnectionClass
     {
-        private  string SQLConnectionString = @"Server = MEHMET\SQLEXPRESS; Database = GelirGiderTakip; Trusted_Connection = True;";
+        private  string SQLConnectionString = @"Server = YourServerName; Database = YourDatabaseName; Trusted_Connection = True;";
         private  SqlConnection con = new SqlConnection();
         private  SqlDataAdapter da = new SqlDataAdapter();
         private  SqlCommand com = new SqlCommand();
